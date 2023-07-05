@@ -1,0 +1,5 @@
+landing colors : #1b71f3;
+: #223171;
+landing gradient to right 
+first color 30%
+sec color 70%
