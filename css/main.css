@@ -20,13 +20,14 @@ ul {
 }
 /* start of landing */
 .landing {
-    background-image: url(/imgs/landing-pages.png);
+    background-image: url(/imgs/landing-01.jpg);
     background-size: cover;
     position: relative;
     min-height: 100vh;
     width: 100%;
     /* overflow: hidden; */
     z-index: 1;
+    transition: 3s;
 }
 div.overlay {
     height: 100%;

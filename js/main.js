@@ -57,3 +57,10 @@ function removeClicked(indexOne) {
         }
     })
 }
+// shuffle imgs 
+let landing = document.querySelector(".landing");
+let imgsArr = ["landing-01.jpg", "landing-02.jpg", "landing-03.jpg", "landing-04.jpg", "landing-05.jpeg", "landing-06.png"];
+setInterval(function() {
+    let randomNum = Math.floor(Math.random() * imgsArr.length)
+    landing.style.backgroundImage = `url(/imgs/${imgsArr[randomNum]})`
+},10000)
