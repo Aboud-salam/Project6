@@ -28,14 +28,12 @@ getData().then(res => {
     let answers = res;
     question.forEach((e, index) => {
         e.onclick = function () {
-            console.log(index)
             e.classList.toggle("clicked")
             if (e.classList.contains("clicked")) {
                 e.lastElementChild.innerHTML = "";
                 let answer = answers.filter(e => {
                     return e[`answer-${index}`]
                 })
-                console.log(e.lastElementChild)
                     let element = document.createElement("p")
                     element.appendChild(document.createTextNode(answer[0][`answer-${index}`]))
                     element.classList.add("description")

@@ -4,9 +4,9 @@
 }
 :root {
     --green: #51deb7;
-    --red: #ff6496;
-    --dark-blue: #223171;
-    --light-blue: #1b71f3;
+    --main-color: #223171;
+    --sec-color: #1b71f3;
+    --third-color: #ff6496;
     --section-color: #f6f6f6;
 }
 body {
@@ -79,11 +79,11 @@ div.overlay {
     color: var(--green);
 }
 .work-btn a {
-    background-color: var(--red);
+    background-color: var(--third-color);
     color: #fff;
 }
 .work-btn a:hover {
-    background-color: var(--red);
+    background-color: var(--third-color);
     color: #fff;
 }
 .work-btn a:hover {
@@ -159,7 +159,7 @@ div.overlay {
     background-color: var(--section-color);
 }
 .services .container h2 {
-    color: var(--dark-blue);
+    color: var(--main-color);
 }
 .services .container .box {
     box-shadow: 0 0 20px #ddd;
@@ -188,7 +188,7 @@ div.overlay {
     background-color: var(--section-color);
 }
 .entrust .container .content h1 {
-    color: var(--dark-blue);
+    color: var(--main-color);
     font-size: 29px;
 }
 .entrust .container .content p {
@@ -316,7 +316,7 @@ div.overlay {
 }
 .testimonials .container h2,
 .testimonials .box h3 {
-    color: var(--dark-blue);
+    color: var(--main-color);
     font-weight: bold;
 }
 .testimonials .container .col .box {
@@ -344,7 +344,7 @@ div.overlay {
 /* end of testimonials */
 /* start of questions */
 .asked-questions .container h2 {
-    color: var(--dark-blue);
+    color: var(--main-color);
 }
 .asked-questions .container .questions {
     transition: .3s;
@@ -385,24 +385,24 @@ div.overlay {
 /* end of apply */
 /* start of footer */
 .footer .logo {
-    color: var(--dark-blue);
+    color: var(--main-color);
 }
 .footer .icons svg {
-    color: var(--dark-blue);
+    color: var(--main-color);
     cursor: pointer;
 }
 .footer h4 {
-    color: var(--dark-blue);
+    color: var(--main-color);
     text-transform: uppercase;
     font-weight: 500;
 }
 .footer ul li {
-    color: var(--light-blue);
+    color: var(--sec-color);
     padding: 5px;
     cursor: pointer;
 }
 .footer ul li:hover {
-    color: var(--dark-blue);
+    color: var(--main-color);
 }
 @media (min-width: 768px) {
     .footer .row div:last-child {
